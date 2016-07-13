@@ -1,0 +1,7 @@
+user_homepage:
+    path:     /
+    defaults: { _controller: UserBundle:User:index }
+
+user_menu:
+    path:     /menu
+    defaults: { _controller: UserBundle:User:menu }

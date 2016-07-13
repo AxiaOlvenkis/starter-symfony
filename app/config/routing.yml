@@ -1,0 +1,14 @@
+starter_core:
+    resource: "@StarterCoreBundle/Resources/config/routing.yml"
+    prefix:   /
+
+starter_admin:
+    resource: "@StarterAdminBundle/Resources/config/routing.yml"
+    prefix:   /admin
+
+starter_user:
+    resource: "@StarterUserBundle/Resources/config/routing.yml"
+    prefix:   /user
+
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
